@@ -3,15 +3,3 @@ description: Cayman is a clean, responsive theme for GitHub Pages.
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-cayman
-paginate: 10                                #分页时每页博文数量
-author:                                     #自定义常亮
-  name: 闫肃
-  email: yansu0711@gmail.com
-  link: http://yansu.org
-title: ikka的博客                            #自定义常量
-locals:                                     #自定义常量
-  tags: 标签
-  about: 关于
-active: 技术                                 #自定义常量
-subscribe_rss: /pages/atom.xml              #订阅地址
-markdown: redcarpet                         #markdown解释器
