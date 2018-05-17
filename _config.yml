@@ -1,7 +1,7 @@
 # Site settings
 title: IKKA's Blog
 SEOTitle: 北篱的博客 | IKKA's Blog
-header-img: 
+header-img: ./img/home-bg.png
 email: 3159973645@qq.com
 description: "联赛钦定退役选手"
 keyword: "beili, ikka, 北篱的博客, ikka's blog, OI, 竞赛, c++, python"
