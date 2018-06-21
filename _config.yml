@@ -10,7 +10,7 @@ github_repo: "https://github.com/phqghume/phqghume.github.com.git" # you code re
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "蒟蒻在役OIer一枚"
+sidebar-about-description: "蒟蒻在役OIer一枚，gryz最弱OI选手"
 #sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
