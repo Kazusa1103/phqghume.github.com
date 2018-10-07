@@ -28,4 +28,19 @@ while (!q.empty()) {
 }
 ```
 
-### 
+### 二分图染色判断奇偶环
+
+``` cpp
+void dfs(int u, int fa) {
+  for (edge *i = fi[u]; i; i = i -> next) {
+    int v = i -> v;
+    if (v == fa) continue;
+    if (~vis[v]) {
+      if (vis[u] == vis[v]) odd = 1;
+      else even = 1;
+    }
+    if (!i -> vis) i -> vis = 1, vis[v] = vis[u] ^ 1, dfs(v, u);
+  }
+  vis[u] = -1;
+}
+```
