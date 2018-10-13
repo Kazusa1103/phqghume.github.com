@@ -45,6 +45,8 @@ void dfs(int u, int fa) {
 }
 ```
 
+# 字符串
+
 ### 字符串最小表示法
 
 ``` cpp
