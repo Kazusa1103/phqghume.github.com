@@ -44,3 +44,25 @@ void dfs(int u, int fa) {
   vis[u] = -1;
 }
 ```
+
+### 字符串最小表示法
+
+``` cpp
+int minrep(int n) {
+  int i = 0, j = 1, k = 0;
+  while (i < n && j < n && k < n) {
+    int t = s[(i + k) % n] - s[(j + k) % n];
+    if (t) {
+      if (t > 0) i += k + 1;
+      else j += k + 1;
+      if (i == j) ++j;
+      k = 0;
+    } else {
+      ++k;
+    }
+  }
+  return std::min(i, j);
+}
+```
+
+
