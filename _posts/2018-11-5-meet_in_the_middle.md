@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 中途相遇法优化搜索
+title: 中途相遇法优化算法
 subtitle: 中途相遇(Meet-in-The-Middle)在OI中的应用
 date: 2018-11-05
 author: ikka
@@ -21,7 +21,7 @@ tags:
 
 考完之后去问wxy大爷，然后发现，T2不是一个我曾经用来出题的算法吗？？？
 
-然而我现在忘了，这个算法就是密码学中的**中途相遇攻击**。
+然而我现在忘了，这个算法就是密码学中的**中途相遇攻击（Meet-in-The-Middle Attack）**。
 
 # Chapter 1
 
