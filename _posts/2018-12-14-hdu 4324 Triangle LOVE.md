@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 中途相遇法优化算法
-subtitle: 中途相遇(Meet-in-The-Middle)在OI中的应用
-date: 2018-11-05
+title: hdu 4324 Triangle LOVE
+subtitle: hdu 4324 Triangle LOVE
+date: 2018-12-14
 author: ikka
 header-img: ./img/home-bg.png
 tags: 
