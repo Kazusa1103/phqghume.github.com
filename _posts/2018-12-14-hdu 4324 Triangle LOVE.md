@@ -16,20 +16,20 @@ tags:
 
 **Description**
 
-  Recently, scientists find that there is love between any of two people. For example, between $$A$$ and $$B$$, if $$A$$ don’t love $$B$$, then $$B$$ must love $$A$$, vice versa. And there is no possibility that two people love each other, what a crazy world!
-  Now, scientists want to know whether or not there is a “Triangle Love” among $$N$$ people. “Triangle Love” means that among any three people ($$A$$,$$B$$ and $$C$$) , $$A$$ loves $$B$$, $$B$$ loves $$C$$ and $$C$$ loves $$A$$.
-  Your problem is writing a program to read the relationship among N people firstly, and return whether or not there is a “Triangle Love”.
+  Recently, scientists find that there is love between any of two people. For example, between $$ A $$ and $$ B $$, if $$ A $$ don’t love $$ B $$, then $$ B $$ must love $$ A $$, vice versa. And there is no possibility that two people love each other, what a crazy world!
+  Now, scientists want to know whether or not there is a “Triangle Love” among $$ N $$ people. “Triangle Love” means that among any three people ($$ A $$,$$ B $$ and $$ C $$) , $$ A $$ loves $$ B $$, $$ B $$ loves $$ C $$ and $$ C $$ loves $$ A $$.
+  Your problem is writing a program to read the relationship among $$ N $$ people firstly, and return whether or not there is a “Triangle Love”.
 
 **Input Format**
 
-  The first line contains a single integer $$t (1 <= t <= 15)$$, the number of test cases.
-  For each case, the first line contains one integer $$N (0 < N <= 2000)$$.
-  In the next N lines contain the adjacency matrix A of the relationship (without spaces). $$A_{i,j} = 1$$ means $$i-th$$ people loves $$j-th$$ people, otherwise $$A_{i,j} = 0$$.
-  It is guaranteed that the given relationship is a tournament, that is, $$A_{i,i}= 0, A_{i,j} \neq A_{j,i}(1<=i, j<=n,i \neq j)$$.
+  The first line contains a single integer $$ t (1 <= t <= 15) $$, the number of test cases.
+  For each case, the first line contains one integer $$ N (0 < N <= 2000) $$.
+  In the next N lines contain the adjacency matrix A of the relationship (without spaces). $$ A_{i,j} = 1 $$ means $$ i-th $$ people loves $$ j-th $$ people, otherwise $$ A_{i,j} = 0 $$.
+  It is guaranteed that the given relationship is a tournament, that is, $$ A_{i,i}= 0, A_{i,j} \neq A_{j,i}(1<=i, j<=n,i \neq j) $$.
 
 **Output Format**
 
-  For each case, output the case number as shown and then print “Yes”, if there is a “Triangle Love” among these $$N$$ people, otherwise print “No”.
+  For each case, output the case number as shown and then print “Yes”, if there is a “Triangle Love” among these $$ N $$ people, otherwise print “No”.
   Take the sample output for more details.
 
 
@@ -64,7 +64,7 @@ Case #2: No
 
 要考虑竞赛图这样一个性质，**如果竞赛图中有任意长度的环，则一定存在三元环**。
 
-于是这个题就变成判断是否存在环了，**如果一个竞赛图是DAG的话，那么它的每个节点的度数一定是$$0$$到$$n-1$$的一个排列**。
+于是这个题就变成判断是否存在环了，**如果一个竞赛图是DAG的话，那么它的每个节点的度数一定是 $$ 0 $$ 到 $$ n-1 $$ 的一个排列**。
 
 于是这道题就做完了。
 
