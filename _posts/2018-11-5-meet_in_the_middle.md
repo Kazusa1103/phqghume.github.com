@@ -4,7 +4,7 @@ title: 中途相遇法优化算法
 subtitle: 中途相遇(Meet-in-The-Middle)在OI中的应用
 date: 2018-11-05
 author: ikka
-header-img: ./img/home-bg.png
+header-img: ./img/bg2.png
 tags: 
      - OI
      - Meet-in-The-Middle
