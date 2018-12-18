@@ -4,7 +4,7 @@ title: hdu 4324 Triangle LOVE
 subtitle: hdu 4324 Triangle LOVE
 date: 2018-12-14
 author: ikka
-header-img: ./img/home-bg.png
+header-img: ./img/bg1.jpg
 tags: 
      - OI
      - 图论
